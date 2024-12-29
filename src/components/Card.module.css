@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.cardContainer {
+    height: 450px;
+    width: 360px;
+    background: var(--grey800);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.profileContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 8px;
+}
+
+.profileImg {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    border: 1px solid var(--grey700);
+
+}
+
+.profileName {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.profileTag {
+    color: var(--green);
+    margin-bottom: 25px;
+}
+
+.profileDescription {
+    color: var(--grey600);
+    font-size: 14px;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button {
+        width: 270px;
+        padding: 10px;
+        margin: 7px;
+        border: none;
+        border-radius: 10px;
+        background-color: var(--grey700);
+        color: white;
+        font-weight: bold;
+        transition: all 0.2s ease;
+    }
+
+    button:hover {
+        background-color: var(--green);
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 384px) {
+
+    .cardContainer {
+        height: 415px;
+        width: 290px;
+        background: var(--grey800);
+        border-radius: 10px;
+        padding: 25px;
+    }
+
+    .profileDescription {
+        font-size: 13px;
+    }
+
+    .linksContainer button {
+        width: 258px;
+    }
+}

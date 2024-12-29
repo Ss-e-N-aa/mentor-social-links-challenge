@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --grey600: hsl(0, 0%, 78%);
+  --grey700: hsl(0, 0%, 20%);
+  --grey800: hsl(0, 0%, 12%);
+  --grey900: hsl(0, 0%, 8%);
+
+  --green: hsl(75, 94%, 57%);
+
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background-color: var(--grey900);
+  color: white;
+}
