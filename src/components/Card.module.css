@@ -70,6 +70,11 @@
         color: black;
         cursor: pointer;
     }
+
+    button:focus {
+        outline: 2px solid rgb(255, 77, 0);
+        outline-offset: 2px;
+    }
 }
 
 @media (max-width: 384px) {
